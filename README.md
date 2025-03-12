@@ -1,34 +1,95 @@
-# Learning-web-scraping-and-text-analysis
-Douglas College CSIS-4290 Assignment 2
+# 🔗 Web Scraping and Text Analysis - CSIS 4260 Assignment 2
 
-CSIS 4260 – Assignment 2: Web Scraping and Text Analysis
+This project is part of **CSIS 4260 - Learning Web Scraping and Text Analysis**. The assignment consists of two major parts:
 
-Project Summary
+- **Part 1: Web Scraping** - Extracting structured data from web sources.
+- **Part 2: Text Analysis** - Applying various text mining and NLP techniques to analyze scraped data.
 
-This project is divided into two parts:
+---
 
-Part 1: Web Scraping
+## 🔎 Part 1: Web Scraping
 
-Task: Research and compare two popular web scraping libraries (such as Scrapy, BeautifulSoup, MechanicalSoup, Playwright, or others).
+**Notebook:** [PartA_Web_Scraping.ipynb](https://github.com/AnushGoel/Learning-web-scraping-and-text-analysis/blob/main/PartA_Web_Scraping.ipynb)
 
-Deliverable: Recommend a library based on benchmarks, ease of use, and performance.
+In this phase, we:
+- **Researched and compared** popular web scraping libraries (**Scrapy, BeautifulSoup, Playwright**).
+- **Selected the best-suited library** based on **ease of use, efficiency, and scalability**.
+- **Scraped at least 100 articles/pages** from a **real-world website** (news site, subreddit, or other public source).
+- **Stored and processed the data** for further analysis.
 
-Implementation: Use the selected library to scrape at least 100 articles/pages from a public site (e.g., BBC News, a subreddit) on a chosen topic.
+---
 
-Part 2: Text Analysis
+## 🤖 Part 2: Text Analysis
 
-Task: Apply at least two text analysis algorithms (such as TF-IDF, sentiment analysis, emotion mining, LLM APIs like GPT, Llama, etc.) to the collected data.
+### 📊 Part 2A: Basic Text Mining
 
-Deliverable: Provide a summary of each scraped page and assign an importance score with a direction (positive or negative).
+**Notebook:** [Part_2A_Basic_Text_Mining.ipynb](https://github.com/AnushGoel/Learning-web-scraping-and-text-analysis/blob/main/Part_2A_Basic_Text_Mining.ipynb)
 
-Output: Present the results in a tabulated form along with the code implementation.
+This section applies fundamental text mining techniques to analyze the collected data:
 
-Key Project Components:
+- **Text Preprocessing**: Tokenization, stopword removal, stemming.
+- **Sentiment Analysis**: Using **TextBlob and NLTK** to classify sentiment.
+- **Keyword Extraction**: Implementing **TF-IDF** to extract key terms.
+- **Summarization**: Applying **Extractive and Abstractive methods** for summarization.
+- **Tabulated Insights**: Presenting structured information from the text.
 
-Web Scraping: Data collection from the web using Python libraries.
+### 🔮 Part 2B: Advanced Text Mining
 
-Text Analysis: Data processing, cleaning, and application of NLP algorithms.
+**Notebook:** [Part_2_B_Advanced_Text_Mining.ipynb](https://github.com/AnushGoel/Learning-web-scraping-and-text-analysis/blob/main/Part_2_B_Advanced_Text_Mining.ipynb)
 
-Technologies Used: Python, Scrapy, BeautifulSoup, TextBlob, TF-IDF, CountVectorizer.
+This section explores cutting-edge **Natural Language Processing (NLP)** and **Machine Learning techniques**, including:
 
-Final Output: CSV file containing articles, summaries, and importance scores with direction, along with visualizations like word clouds and sentiment graphs.
+- **🎨 Topic Modeling**: Implementing **LDA and BERTopic** to identify hidden themes.
+- **🧐 Deep Learning Sentiment Analysis**: Using **Fine-tuned BERT and LSTM-based models**.
+- **👤 Named Entity Recognition (NER)**: Extracting entities using **SpaCy Transformers**.
+- **⚡ Anomaly Detection**: Identifying outliers using **Autoencoder-based models**.
+- **🔄 Text Clustering**: Applying **K-Means and Agglomerative Clustering**.
+- **🥨 Graph Neural Networks (GNNs) for Text**: Utilizing GNNs for text representation.
+- **📝 Summarization with Transformers**: Implementing **T5 Transformer** for state-of-the-art summarization.
+- **🌍 Data Visualization**: Graphical representation of insights and findings.
+
+---
+
+## 🛠️ How to Run the Project
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/AnushGoel/Learning-web-scraping-and-text-analysis.git
+   cd Learning-web-scraping-and-text-analysis
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+4. Execute the notebooks in order:
+   - **Part 1**: `PartA_Web_Scraping.ipynb`
+   - **Part 2A**: `Part_2A_Basic_Text_Mining.ipynb`
+   - **Part 2B**: `Part_2_B_Advanced_Text_Mining.ipynb`
+
+---
+
+## 📊 Results & Insights
+- The **web scraping** process successfully extracted over **100 articles** from a real-world source.
+- **Basic text mining techniques** provided valuable sentiment analysis and keyword extraction.
+- **Advanced NLP models** effectively performed topic modeling, sentiment classification, and anomaly detection.
+- Visualizations were used to illustrate **clustering, sentiment distribution, topic coherence, and text insights**.
+
+---
+
+## 🌟 Conclusion
+This project demonstrates **end-to-end web scraping and text analysis**, incorporating both **traditional NLP techniques and state-of-the-art deep learning models**. These insights can be applied in real-world applications such as **news analytics, social media monitoring, and business intelligence**.
+
+---
+
+## 👤 Author
+**Anush Goel**  
+[GitHub Profile](https://github.com/AnushGoel)
+
+---
+
+🎨 *If you found this project insightful, feel free to explore, contribute, or suggest improvements!* 🌟
+
